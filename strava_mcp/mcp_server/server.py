@@ -9,7 +9,7 @@ Claude Desktop config snippet::
         "strava": {
           "command": "python",
           "args": ["-m", "strava_mcp.mcp_server.server"],
-          "cwd": "C:\\Projects\\strava-mcp"
+          "cwd": "C:\\Projects\\strava-analyser"
         }
       }
     }

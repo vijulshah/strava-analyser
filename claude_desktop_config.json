@@ -1,0 +1,15 @@
+{
+  "_comment": "Add the 'strava' block below to the 'mcpServers' section of your Claude Desktop config.",
+  "_config_paths": {
+    "windows": "%APPDATA%\\Claude\\claude_desktop_config.json",
+    "macos": "~/Library/Application Support/Claude/claude_desktop_config.json"
+  },
+  "mcpServers": {
+    "strava": {
+      "command": "python",
+      "args": ["-m", "strava_mcp.mcp_server.server"],
+      "cwd": "C:\\Projects\\strava-mcp",
+      "env": {}
+    }
+  }
+}
